@@ -1,4 +1,4 @@
-package dev.arinzedroid.simplecrashhandler
+package dev.arinzedroid
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import dev.arinzedroid.simplecrashhandler.R
 import java.lang.Exception
 
 internal class NotificationUtil(private val context: Context) {
